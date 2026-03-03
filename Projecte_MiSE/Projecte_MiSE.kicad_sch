@@ -7045,6 +7045,16 @@
 		)
 		(uuid "619baf22-a873-4370-8b9e-636536df3c76")
 	)
+	(label "SCL"
+		(at 146.05 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65a6cea2-6369-4576-b24b-83e590e8f82f")
+	)
 	(label "GPIOD"
 		(at 218.44 148.59 0)
 		(effects
@@ -7104,6 +7114,16 @@
 			(justify right bottom)
 		)
 		(uuid "8e17b714-8a91-45c3-8d7c-ed97838c045a")
+	)
+	(label "SDA"
+		(at 149.86 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "936324bd-db4b-41c4-8248-91a3b6c1dc90")
 	)
 	(label "crystall+"
 		(at 106.68 168.91 180)
@@ -7427,7 +7447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "011b6255-0a95-4a12-8dc7-c61d7c8a9e98")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 45.085 139.7 0)
 			(effects
 				(font
@@ -7443,7 +7463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 44.45 147.32 0)
 			(effects
 				(font
@@ -7482,7 +7502,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7563,7 +7583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a18a7f8-a922-4801-a290-dc839ec484ac")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 171.45 245.1099 0)
 			(effects
 				(font
@@ -7581,7 +7601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 168.6052 250.19 0)
 			(effects
 				(font
@@ -7617,7 +7637,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7649,7 +7669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 377.19 86.36 0)
 			(effects
 				(font
@@ -7868,7 +7888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "124a4727-0fce-4fbe-b651-fa93aa4e6895")
-		(property "Reference" "Y?"
+		(property "Reference" "Y1"
 			(at 39.878 189.738 0)
 			(effects
 				(font
@@ -7884,7 +7904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Horizontal_1EP_style1"
 			(at 39.37 199.39 0)
 			(effects
 				(font
@@ -7923,7 +7943,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "Y?")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -8023,7 +8043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 315.722 78.74 90)
 			(effects
 				(font
@@ -8075,7 +8095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "220d0a3f-8924-4b39-8bfc-dec663bc696a")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 50.8 201.9299 0)
 			(effects
 				(font
@@ -8093,7 +8113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 47.9552 207.01 0)
 			(effects
 				(font
@@ -8129,7 +8149,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8144,7 +8164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "225495c5-df02-47b0-94de-a61e97854789")
-		(property "Reference" "IC?"
+		(property "Reference" "IC1"
 			(at 124.968 103.124 0)
 			(effects
 				(font
@@ -8160,7 +8180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MiSE:QFP50P900X900X160-48N"
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
 			(at 224.79 202.87 0)
 			(effects
 				(font
@@ -8406,7 +8426,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "IC?")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -8421,7 +8441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "256cbdb2-b95c-4ab3-bc24-e594e19f1f90")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 64.77 247.6499 0)
 			(effects
 				(font
@@ -8439,7 +8459,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 69.5452 252.73 0)
 			(effects
 				(font
@@ -8475,7 +8495,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8706,7 +8726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 330.2 67.31 0)
 			(effects
 				(font
@@ -8992,7 +9012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48fc6457-eb57-4457-9372-ee10c42983e4")
-		(property "Reference" "C?"
+		(property "Reference" "C9"
 			(at 243.84 160.0199 0)
 			(effects
 				(font
@@ -9010,7 +9030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 246.6848 165.1 0)
 			(effects
 				(font
@@ -9046,7 +9066,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9062,7 +9082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53010610-ab41-4b39-8e24-64195a1b79b1")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 148.59 57.1499 0)
 			(effects
 				(font
@@ -9117,7 +9137,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9133,7 +9153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "532ff4fa-ccf6-4ecc-aa98-dfaa2c27d0c7")
-		(property "Reference" "C?"
+		(property "Reference" "C10"
 			(at 271.78 60.9599 0)
 			(effects
 				(font
@@ -9151,7 +9171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 267.0048 66.04 0)
 			(effects
 				(font
@@ -9187,7 +9207,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9269,7 +9289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b6a7be4-cf6e-4a71-b041-9a6b9b1e1c1b")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 200.66 243.84 0)
 			(effects
 				(font
@@ -9285,7 +9305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
 			(at 199.39 252.73 0)
 			(effects
 				(font
@@ -9339,7 +9359,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9355,7 +9375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ec0bfcf-465f-4252-8829-64dec8c1d7c2")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 82.55 165.0999 0)
 			(effects
 				(font
@@ -9373,7 +9393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 85.3948 170.18 0)
 			(effects
 				(font
@@ -9409,7 +9429,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9491,7 +9511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66071d58-bde4-40c2-9c2b-42865dbce26f")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 363.22 77.4699 0)
 			(effects
 				(font
@@ -9509,7 +9529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 367.538 78.74 90)
 			(effects
 				(font
@@ -9545,7 +9565,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9645,7 +9665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 261.62 59.69 0)
 			(effects
 				(font
@@ -9733,7 +9753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fb8bd0d-d6b3-4e91-adf1-b59c9a9013d2")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 74.93 260.3499 0)
 			(effects
 				(font
@@ -9751,7 +9771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.7748 265.43 0)
 			(effects
 				(font
@@ -9787,7 +9807,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10171,7 +10191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f10c49b-2e60-4b19-88b6-792555442e48")
-		(property "Reference" "RV?"
+		(property "Reference" "RV2"
 			(at 148.59 74.9299 0)
 			(effects
 				(font
@@ -10228,7 +10248,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "RV?")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -10243,7 +10263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fe52f1b-2d6a-428a-bdec-64e295e46313")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 99.06 227.3299 0)
 			(effects
 				(font
@@ -10261,7 +10281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 94.742 228.6 90)
 			(effects
 				(font
@@ -10297,7 +10317,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10312,7 +10332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "906bdcb2-07bf-4786-a044-299fd34c9913")
-		(property "Reference" "SW?"
+		(property "Reference" "SW1"
 			(at 53.34 147.828 0)
 			(effects
 				(font
@@ -10364,7 +10384,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "SW?")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10396,7 +10416,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 377.19 67.31 0)
 			(effects
 				(font
@@ -10548,7 +10568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c20d97f-e321-49ea-8d0d-1810a0c33072")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 285.75 69.8499 0)
 			(effects
 				(font
@@ -10566,7 +10586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 290.5252 74.93 0)
 			(effects
 				(font
@@ -10602,7 +10622,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10618,7 +10638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c68742b-d879-4f16-b2ac-e7ec548642d4")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 27.94 201.9299 0)
 			(effects
 				(font
@@ -10636,7 +10656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 30.7848 207.01 0)
 			(effects
 				(font
@@ -10672,7 +10692,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10687,7 +10707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cf4350f-1115-4e50-918a-b85c071890c4")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 66.04 157.4799 0)
 			(effects
 				(font
@@ -10705,7 +10725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 63.1952 162.56 0)
 			(effects
 				(font
@@ -10741,7 +10761,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10960,7 +10980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3b4445e-6535-4e26-beca-89d3888008cd")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 320.04 60.9599 0)
 			(effects
 				(font
@@ -10978,7 +10998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 315.722 62.23 90)
 			(effects
 				(font
@@ -11014,7 +11034,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11030,7 +11050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5e52980-c554-4628-b9e4-6ef17c942460")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 217.17 241.2999 0)
 			(effects
 				(font
@@ -11048,7 +11068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 212.852 242.57 90)
 			(effects
 				(font
@@ -11084,7 +11104,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11166,7 +11186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf197e56-e623-4ed0-a838-56ce3ab7d52e")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 88.9 222.2499 0)
 			(effects
 				(font
@@ -11184,7 +11204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.218 223.52 90)
 			(effects
 				(font
@@ -11220,7 +11240,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11235,7 +11255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c99dcf0b-6b9e-4301-bc2f-873e12d0746e")
-		(property "Reference" "LCD?"
+		(property "Reference" "LCD1"
 			(at 127 254.6351 0)
 			(effects
 				(font
@@ -11253,7 +11273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MiSE:LCD_2x16_I2C(Midas)"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
 			(at 147.32 266.7 0)
 			(effects
 				(font
@@ -11306,7 +11326,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "LCD?")
+					(reference "LCD1")
 					(unit 1)
 				)
 			)
@@ -11321,7 +11341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cce83095-3918-4f33-95be-165a5a089864")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 368.3 60.9599 0)
 			(effects
 				(font
@@ -11339,7 +11359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 363.982 62.23 90)
 			(effects
 				(font
@@ -11375,7 +11395,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11528,7 +11548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1e6f8d9-d9a9-4dd0-9f15-008d364ced7f")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 226.06 240.0299 0)
 			(effects
 				(font
@@ -11546,7 +11566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 223.2152 245.11 0)
 			(effects
 				(font
@@ -11582,7 +11602,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11599,7 +11619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d40657b8-dd24-4c88-94af-06f373470df5")
-		(property "Reference" "J?"
+		(property "Reference" "J4"
 			(at 259.08 170.1799 0)
 			(effects
 				(font
@@ -11617,7 +11637,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 257.81 171.45 0)
 			(effects
 				(font
@@ -11662,7 +11682,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11742,7 +11762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df6c8fad-30ab-426b-bd19-0dd30432b032")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 320.04 101.5999 0)
 			(effects
 				(font
@@ -11760,7 +11780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 315.722 102.87 90)
 			(effects
 				(font
@@ -11796,7 +11816,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11828,7 +11848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 330.2 86.36 0)
 			(effects
 				(font
@@ -12048,7 +12068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2a97761-a523-4671-940a-b32921914979")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 64.77 138.4299 0)
 			(effects
 				(font
@@ -12066,7 +12086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 60.452 139.7 90)
 			(effects
 				(font
@@ -12102,7 +12122,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12135,7 +12155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THB001P"
+		(property "Footprint" "MiSE:THB001P"
 			(at 267.97 178.74 0)
 			(effects
 				(font
@@ -12359,7 +12379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbe480d2-ca25-4ca2-8abc-0414291b2fc3")
-		(property "Reference" "C_RXD"
+		(property "Reference" "C_RXD1"
 			(at 227.33 252.7299 0)
 			(effects
 				(font
@@ -12377,7 +12397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 226.06 255.27 0)
 			(effects
 				(font
@@ -12413,7 +12433,7 @@
 		(instances
 			(project ""
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "C_RXD")
+					(reference "C_RXD1")
 					(unit 1)
 				)
 			)
@@ -12428,7 +12448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc608108-ca8c-4b4d-b0e7-bc26c2993c00")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 368.3 96.5199 0)
 			(effects
 				(font
@@ -12446,7 +12466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 363.982 97.79 90)
 			(effects
 				(font
@@ -12482,7 +12502,7 @@
 		(instances
 			(project "Projecte_MiSE"
 				(path "/29d650d8-72c5-4eda-8590-f7308688f16a"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
