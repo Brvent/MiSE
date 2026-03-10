@@ -4811,8 +4811,8 @@
 		(uuid 15c75f78-2453-409d-883c-27c405bf85c9)
 	)
 	(rectangle
-		(start 159.385 215.9)
-		(end 186.69 227.33)
+		(start 236.855 124.46)
+		(end 264.16 135.89)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4823,8 +4823,8 @@
 		(uuid 3fa89814-e365-4084-87b9-f4c217bebc08)
 	)
 	(rectangle
-		(start 226.695 139.7)
-		(end 277.495 190.5)
+		(start 232.41 139.7)
+		(end 283.21 190.5)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4920,7 +4920,7 @@
 	)
 	(text "Ultrasons\n"
 		(exclude_from_sim no)
-		(at 252.222 144.78 0)
+		(at 263.906 145.034 0)
 		(effects
 			(font
 				(size 4 4)
@@ -4956,7 +4956,7 @@
 	)
 	(text "LED PWM"
 		(exclude_from_sim no)
-		(at 171.45 225.806 0)
+		(at 248.92 134.366 0)
 		(effects
 			(font
 				(size 2 2)
@@ -5271,10 +5271,6 @@
 		(uuid "1bf56930-cd7a-4a7a-b8a7-80e15322fc4b")
 	)
 	(no_connect
-		(at 215.9 163.83)
-		(uuid "1fb40afa-6d1b-4775-a996-8b32984937fa")
-	)
-	(no_connect
 		(at 252.73 173.99)
 		(uuid "38160bb7-43b2-4b72-8825-ed9fe1aef3a8")
 	)
@@ -5317,6 +5313,10 @@
 	(no_connect
 		(at 198.12 255.27)
 		(uuid "963d47e8-6909-48bf-b2e4-69c162eb132f")
+	)
+	(no_connect
+		(at 160.02 209.55)
+		(uuid "a0482a83-bcc8-40d4-b4d7-44c404b7b23c")
 	)
 	(no_connect
 		(at 210.82 252.73)
@@ -5720,6 +5720,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 163.83) (xy 228.6 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30482d9d-110e-41b0-a692-73afe061e3cb")
+	)
+	(wire
+		(pts
 			(xy 66.04 247.65) (xy 69.85 247.65)
 		)
 		(stroke
@@ -6040,6 +6050,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 128.27) (xy 237.49 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5614d694-56d5-466a-95bd-ecc06cff97a7")
+	)
+	(wire
+		(pts
 			(xy 49.53 149.86) (xy 49.53 151.13)
 		)
 		(stroke
@@ -6057,6 +6077,16 @@
 			(type default)
 		)
 		(uuid "56de18da-c7ba-487c-9364-210724409ddc")
+	)
+	(wire
+		(pts
+			(xy 228.6 163.83) (xy 228.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e50f34-cebe-4af3-9376-2e3504b59f50")
 	)
 	(wire
 		(pts
@@ -6200,16 +6230,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 209.55) (xy 160.02 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69b32d95-741d-49af-a9d9-0d2438f6ba4d")
-	)
-	(wire
-		(pts
 			(xy 317.5 91.44) (xy 317.5 99.06)
 		)
 		(stroke
@@ -6290,7 +6310,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 219.71) (xy 182.88 219.71)
+			(xy 255.27 128.27) (xy 260.35 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6880,7 +6900,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 219.71) (xy 170.18 219.71)
+			(xy 245.11 128.27) (xy 247.65 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7130,7 +7150,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 219.71) (xy 182.88 220.98)
+			(xy 260.35 128.27) (xy 260.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7469,7 +7489,7 @@
 		(uuid "0f005872-237c-47a2-a1b7-9a1d8a90a61a")
 	)
 	(label "M_L"
-		(at 160.02 217.17 180)
+		(at 228.6 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7549,7 +7569,7 @@
 		(uuid "3cf29eb7-17bd-44de-b43d-b05f809600e9")
 	)
 	(label "echo"
-		(at 233.68 168.91 0)
+		(at 236.22 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7580,7 +7600,7 @@
 		(uuid "4dde8aec-d26a-4dc3-a0e4-f0a8c8141a31")
 	)
 	(label "trg"
-		(at 233.68 171.45 0)
+		(at 236.22 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7801,7 +7821,7 @@
 		(uuid "a19db806-164e-4ebf-888a-1cee4c4169fb")
 	)
 	(label "L_R"
-		(at 170.18 219.71 270)
+		(at 247.65 128.27 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8276,7 +8296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 128.27 213.36 0)
 			(effects
 				(font
@@ -9613,7 +9633,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 220.98 0)
+		(at 260.35 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9622,7 +9642,7 @@
 		(fields_autoplaced yes)
 		(uuid "37236149-6638-4bce-9eb8-e0af7c8d574f")
 		(property "Reference" "#PWR025"
-			(at 182.88 227.33 0)
+			(at 260.35 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9631,7 +9651,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 226.06 0)
+			(at 260.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +9659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 220.98 0)
+			(at 260.35 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,7 +9668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 220.98 0)
+			(at 260.35 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9657,7 +9677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 220.98 0)
+			(at 260.35 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,7 +9991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 231.14 252.73 0)
 			(effects
 				(font
@@ -10642,7 +10662,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 219.71 270)
+		(at 251.46 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10650,7 +10670,7 @@
 		(dnp no)
 		(uuid "6a7a4e3a-d015-4d45-948b-4e72b1b91e25")
 		(property "Reference" "R13"
-			(at 173.99 216.916 90)
+			(at 251.46 125.476 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10678,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 174.244 221.996 90)
+			(at 251.714 130.556 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10666,7 +10686,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 173.99 217.932 90)
+			(at 251.46 126.492 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10675,7 +10695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 219.71 0)
+			(at 251.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10684,7 +10704,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 219.71 0)
+			(at 251.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10838,7 +10858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -11040,7 +11060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 74.93 111.76 0)
 			(effects
 				(font
@@ -11169,7 +11189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 128.27 218.44 0)
 			(effects
 				(font
@@ -11746,7 +11766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 128.27 224.79 0)
 			(effects
 				(font
@@ -12118,7 +12138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 76.2 100.33 0)
 			(effects
 				(font
@@ -12747,7 +12767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 229.87 257.81 0)
 			(effects
 				(font
@@ -12924,7 +12944,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 163.83 219.71 180)
+		(at 241.3 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12932,7 +12952,7 @@
 		(dnp no)
 		(uuid "c6343026-8f8c-454a-963f-88b9fabbe8ae")
 		(property "Reference" "D1"
-			(at 163.576 222.25 0)
+			(at 241.046 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12940,7 +12960,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 166.878 222.25 0)
+			(at 244.348 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,7 +12968,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 163.83 219.71 0)
+			(at 241.3 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12957,7 +12977,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 219.71 0)
+			(at 241.3 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12966,7 +12986,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 163.83 219.71 0)
+			(at 241.3 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13294,7 +13314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 257.81 171.45 0)
 			(effects
 				(font

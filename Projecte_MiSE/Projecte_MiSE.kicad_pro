@@ -475,22 +475,31 @@
         "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "line_style": 0,
         "name": "diferential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "line_style": 0,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "line_style": 0,
         "name": "signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -508,12 +517,152 @@
         "pattern": "/crystall-"
       },
       {
-        "netclass": "diferential",
+        "netclass": "signal",
+        "pattern": "/ANALOG_OUT1"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/THL"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/THR"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/GPIOR"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/GPIOL"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/ANALOG_OUT2"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/THU"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/THD"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/GPIOU"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/GPIOD"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/JSEL"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SBWTCK"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/ACLK_TP"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SMCLK_TP"
+      },
+      {
+        "netclass": "power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SBWTDIO"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SCLK"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/MISO"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/MOSI"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/P0"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/P1"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/P2"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/P8"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/P12"
+      },
+      {
+        "netclass": "signal",
         "pattern": "/SCL"
       },
       {
-        "netclass": "diferential",
+        "netclass": "signal",
         "pattern": "/SDA"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/~{RST_{LCD}}"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/EN"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/TXD"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/RXD"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/M_L"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/L_R"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/trg"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/echo"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/LDRL"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/LDRR"
       }
     ]
   },
