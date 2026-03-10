@@ -7448,6 +7448,16 @@
 		)
 		(uuid "fe34974d-4319-48a3-a9ff-6470924b38c5")
 	)
+	(label "P12"
+		(at 172.72 212.09 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b62d493-a0c9-4e37-b782-adda9077e7f9")
+	)
 	(label "ACLK_TP"
 		(at 92.71 100.33 0)
 		(effects
@@ -7487,6 +7497,16 @@
 			(justify right bottom)
 		)
 		(uuid "0f005872-237c-47a2-a1b7-9a1d8a90a61a")
+	)
+	(label "P1"
+		(at 165.1 212.09 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "120708a0-0f0b-48f4-b2be-f55c0715f535")
 	)
 	(label "M_L"
 		(at 228.6 130.81 180)
@@ -7548,16 +7568,6 @@
 		)
 		(uuid "31f367d5-3fbd-4290-b715-a25e81851dc6")
 	)
-	(label "P12"
-		(at 162.56 210.82 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33340891-22c1-46c2-a17b-71931ee4d1f3")
-	)
 	(label "GPIOL"
 		(at 339.09 88.9 0)
 		(effects
@@ -7588,16 +7598,6 @@
 			(justify right bottom)
 		)
 		(uuid "48d12d7d-76c5-4f61-9b74-7ac9b353c6cf")
-	)
-	(label "P1"
-		(at 170.18 212.09 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4dde8aec-d26a-4dc3-a0e4-f0a8c8141a31")
 	)
 	(label "trg"
 		(at 236.22 171.45 0)
@@ -7790,16 +7790,6 @@
 		)
 		(uuid "95a78933-277b-4889-bc12-99104b8ea393")
 	)
-	(label "P2"
-		(at 167.64 212.09 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "999bec09-c71f-4f2f-b389-b675ea3f58ee")
-	)
 	(label "crystall-"
 		(at 106.68 166.37 180)
 		(effects
@@ -7830,15 +7820,15 @@
 		)
 		(uuid "a22ba7f5-c668-454a-b977-6c200f05b001")
 	)
-	(label "P0"
-		(at 172.72 212.09 270)
+	(label "P8"
+		(at 170.18 212.09 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "aad94e0e-b0a1-4de9-9932-89c303a57975")
+		(uuid "ae120ef8-c647-411a-882c-d6708495dcfa")
 	)
 	(label "SBWTDIO"
 		(at 83.82 151.13 0)
@@ -7891,6 +7881,16 @@
 		)
 		(uuid "bf300dfb-31c4-4b80-b768-ec27a227365a")
 	)
+	(label "P2"
+		(at 167.64 212.09 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c28f956e-1387-4c14-b6e2-a66102edc983")
+	)
 	(label "crystall-"
 		(at 38.1 190.5 180)
 		(effects
@@ -7930,16 +7930,6 @@
 			(justify left bottom)
 		)
 		(uuid "d66a70b3-7a77-4b8c-8938-cf798c8e4c4d")
-	)
-	(label "P8"
-		(at 165.1 212.09 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8fe30ca-0500-405d-bf09-cc73776fd72a")
 	)
 	(label "MISO"
 		(at 218.44 158.75 0)
@@ -8001,6 +7991,16 @@
 			(justify left bottom)
 		)
 		(uuid "ff0e4fd0-ce30-40dc-af4e-00f3f87b8757")
+	)
+	(label "P0"
+		(at 162.56 210.82 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff1d780a-df26-44a0-b3a8-8709a6e27fe6")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
