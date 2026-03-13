@@ -5743,6 +5743,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 241.3) (xy 218.44 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2402e1df-914c-4485-9fa4-e1901827fb50")
+	)
+	(wire
+		(pts
 			(xy 124.46 241.3) (xy 124.46 242.57)
 		)
 		(stroke
@@ -6673,7 +6683,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 236.22) (xy 218.44 237.49)
+			(xy 218.44 234.95) (xy 218.44 237.49)
 		)
 		(stroke
 			(width 0)
@@ -7273,7 +7283,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 255.27) (xy 218.44 246.38)
+			(xy 218.44 255.27) (xy 218.44 248.92)
 		)
 		(stroke
 			(width 0)
@@ -8923,6 +8933,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 317.5 78.74 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8930,7 +8941,7 @@
 		(dnp no)
 		(uuid "1dc63823-e37b-4e2e-bc08-b42888689f15")
 		(property "Reference" "R1"
-			(at 320.04 77.4699 0)
+			(at 314.96 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,8 +8949,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 320.04 80.0099 0)
+		(property "Value" "10k"
+			(at 314.96 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +8959,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 315.722 78.74 90)
+			(at 319.278 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +9019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "12p"
 			(at 57.15 195.5799 0)
 			(effects
 				(font
@@ -9908,16 +9919,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 218.44 236.22 0)
+		(at 218.44 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3f42505c-a1d8-4d8e-97f7-c1c0b71a0f8e")
 		(property "Reference" "#PWR017"
-			(at 218.44 240.03 0)
+			(at 218.44 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +9936,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 218.44 231.14 0)
+			(at 216.154 231.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9934,7 +9944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 236.22 0)
+			(at 218.44 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9943,7 +9953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 236.22 0)
+			(at 218.44 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,7 +9962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 218.44 236.22 0)
+			(at 218.44 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10816,7 +10826,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 363.22 80.0099 0)
 			(effects
 				(font
@@ -10950,7 +10960,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120"
 			(at 251.714 130.556 90)
 			(effects
 				(font
@@ -12336,7 +12346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "12p"
 			(at 34.29 195.5799 0)
 			(effects
 				(font
@@ -12814,6 +12824,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 317.5 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12821,7 +12832,7 @@
 		(dnp no)
 		(uuid "a3b4445e-6535-4e26-beca-89d3888008cd")
 		(property "Reference" "R8"
-			(at 320.04 60.9599 0)
+			(at 314.96 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12829,8 +12840,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 320.04 63.4999 0)
+		(property "Value" "10k"
+			(at 314.96 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12839,7 +12850,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 315.722 62.23 90)
+			(at 319.278 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12947,7 +12958,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 242.57 0)
+		(at 218.44 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12956,15 +12967,6 @@
 		(fields_autoplaced yes)
 		(uuid "a5e52980-c554-4628-b9e4-6ef17c942460")
 		(property "Reference" "R7"
-			(at 220.98 241.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
 			(at 220.98 243.8399 0)
 			(effects
 				(font
@@ -12973,8 +12975,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10k"
+			(at 220.98 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 216.662 242.57 90)
+			(at 216.662 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,7 +12994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 242.57 0)
+			(at 218.44 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12992,7 +13003,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 242.57 0)
+			(at 218.44 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13220,6 +13231,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 365.76 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13227,7 +13239,7 @@
 		(dnp no)
 		(uuid "cce83095-3918-4f33-95be-165a5a089864")
 		(property "Reference" "R10"
-			(at 368.3 60.9599 0)
+			(at 363.22 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13235,8 +13247,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 368.3 63.4999 0)
+		(property "Value" "10k"
+			(at 363.22 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +13257,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 363.982 62.23 90)
+			(at 367.538 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13772,6 +13784,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 317.5 102.87 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13779,7 +13792,7 @@
 		(dnp no)
 		(uuid "df6c8fad-30ab-426b-bd19-0dd30432b032")
 		(property "Reference" "R9"
-			(at 320.04 101.5999 0)
+			(at 314.96 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13787,8 +13800,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 320.04 104.1399 0)
+		(property "Value" "10k"
+			(at 314.96 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13797,7 +13810,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 315.722 102.87 90)
+			(at 319.278 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14455,6 +14468,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 365.76 97.79 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14462,7 +14476,7 @@
 		(dnp no)
 		(uuid "fc608108-ca8c-4b4d-b0e7-bc26c2993c00")
 		(property "Reference" "R12"
-			(at 368.3 96.5199 0)
+			(at 363.22 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14470,8 +14484,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 368.3 99.0599 0)
+		(property "Value" "10k"
+			(at 363.22 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14480,7 +14494,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 363.982 97.79 90)
+			(at 367.538 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
