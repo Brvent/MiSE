@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -117,20 +123,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 1.0,
+        "min_microvia_drill": 0.6,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.25,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -180,7 +186,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +217,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -430,7 +445,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -469,9 +484,43 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.3,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.75,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
         "wire_width": 6
       }
     ],
@@ -480,14 +529,171 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "signal",
+        "pattern": "/crystall-"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/ACLK_TP"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SBWTCK"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SBWTDIO"
+      },
+      {
+        "netclass": "power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/crystall+"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SMCLK_TP"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SCLK"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/MISO"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/MOSI"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/P0"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/P1"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/P2"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/P8"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/P12"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SCL"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SDA"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/~{RST_{LCD}}"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/EN"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/TXD"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/RXD"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/trg"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/echo"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/GPIOD"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/GPIOU"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/M_L"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/L_R"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/THU"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/THD"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/ANALOG_OUT2"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/GPIOL"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/GPIOR"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/THL"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/THR"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/ANALOG_OUT1"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/JSEL"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/LDRR"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/LDRL"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
