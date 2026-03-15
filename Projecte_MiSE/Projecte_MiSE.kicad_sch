@@ -5,9 +5,11 @@
 	(uuid "29d650d8-72c5-4eda-8590-f7308688f16a")
 	(paper "A3")
 	(title_block
-		(title "Placa projecte MiSE")
-		(date "2026-03-10")
-		(rev "4/4")
+		(title "PCB projecte MiSE")
+		(date "2026-03-15")
+		(rev "5/5")
+		(comment 1 "K. Brandon Ventura L.")
+		(comment 2 "Raúl Casado Luque")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LMV324"
