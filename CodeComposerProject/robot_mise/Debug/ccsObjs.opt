@@ -1,0 +1,9 @@
+"./AT.obj"
+"./funcions_components.obj"
+"./funcions_micro.obj"
+"./main.obj"
+"./robot.obj"
+"./uart_alumnos.obj"
+"../lnk_msp430fr2355.cmd"
+-lfrwp_init.a
+-llibc.a
